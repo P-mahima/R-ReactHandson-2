@@ -1,3 +1,87 @@
+body{
+  background-image: linear-gradient(to right, skyblue,pink,skyblue);
+}
+.line{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  gap: 20px;
+  /* background-color: navajowhite  ; */
+}
+
+.name1
+{
+  display: flex;
+  gap: 20px;
+  /* background: none; */
+  font-size: 30px;
+  border-radius: 20px;
+  background-image: none;
+  
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  /* background: none; */
+  gap: 20px;
+  background-image: none;
+  
+}
+#name{
+  border: 2px solid black;
+  background-image: none;
+  border-radius: 20px;
+}
+.head
+{
+  background-image: none;
+}
+.btn
+{
+  border: 2px solid black;
+  padding: 20px;
+  background-image: none;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 40px;
+  background-color: antiquewhite;
+}
+.head1
+{
+  background-image: none;
+}  
+.add
+{
+  width: 70%;
+  max-height: 1000px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-image: none;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+.add1{
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  background-color: darkkhaki;
+  margin: 3px;
+  /* background-color: red; */
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  /* background-image: none; */
+}                                                      
+
+
 .App {
   text-align: center;
 }
