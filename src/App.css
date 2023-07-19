@@ -54,8 +54,8 @@ body{
 }  
 .add
 {
-  width: 70%;
-  max-height: 1000px;
+  width: 1500px;
+  max-height: 1000vh;
   border: 2px solid black;
   border-radius: 20px;
   background-image: none;
@@ -64,16 +64,19 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  transform: translate(-50% , -50%);
-  position: absolute;
-  top: 70%;
-  left: 50%;
+  /* transform: translate(-50% , -50%); */
+  /* position: absolute; */
+  /* top: 70%; */
+  /* left: 50%; */
 }
 .add1{
   width: 500px;
   height: 60px;
-  text-align: center;
   background-color: darkkhaki;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 3px;
   /* background-color: red; */
   /* border: 2px solid black; */
